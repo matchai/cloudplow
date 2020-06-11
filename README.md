@@ -586,6 +586,8 @@ Cloudplow can throttle Rclone uploads during active, playing Plex streams (pause
 
 `max_streams_before_throttle` - How many playing streams are allowed before enabling throttling.
 
+`ignore_local_streams` - Whether streaming local files should count for throttling.
+
 `notifications` - Send notifications when throttling is set, adjusted, or unset, depending on stream count.
 
 `rclone`
